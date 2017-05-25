@@ -22,8 +22,8 @@ public class Main {
         driver.switchTo().frame(2);
         System.out.println("args ");
         Thread.sleep(3000);
-//        driver.findElement(By.xpath("//div[@id=':6']/div")).click();
-//        System.out.println("args 1");
-//        driver.findElement(By.xpath("//div[@id=':7']")).click();
+        driver.findElement(By.xpath("//div[@id=':6']/div")).click();
+        System.out.println("args 1");
+        driver.findElement(By.xpath("//div[@id=':7']")).click();
     }
 }
